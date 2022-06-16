@@ -4,6 +4,6 @@ public class HelloGitBranch {
 
     public static void main(String[] args) {
         System.out.println("Hello, Welcome to Git branching concept!");
-        System.out.println("Hello, New Statement!");
+        System.out.println("Hello, Motilal!");
     }
 }
