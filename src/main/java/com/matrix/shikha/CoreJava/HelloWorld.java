@@ -1,4 +1,4 @@
-package com.matrix.Corejava;
+package com.matrix.shikha.CoreJava;
 
 public class HelloWorld {
     public static void main(String[] args) {
