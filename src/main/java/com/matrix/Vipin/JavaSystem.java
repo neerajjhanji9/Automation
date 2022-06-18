@@ -2,6 +2,6 @@ package com.matrix.Vipin;
 
 public class JavaSystem {
     public static void main(String[] args) {
-        System.out.printf("Java Syatem");
+        System.out.printf("Java Class 2022);
     }
 }
