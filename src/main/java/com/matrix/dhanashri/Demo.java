@@ -1,4 +1,4 @@
-package com.matrix.Dhanashri;
+package com.matrix.dhanashri;
 
 public class Demo {
     public static void main(String[] args){
