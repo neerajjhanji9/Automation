@@ -1,0 +1,20 @@
+package com.matrix.nikhil.corejava;
+
+public class ReturnProgram {
+    public static String get(String name)
+    {
+        return name;
+    }
+    public static int data(int roll)
+    {
+        return roll;
+    }
+
+    public static void main(String[] args) {
+        new ReturnProgram();
+        String b = ReturnProgram.get("Nikhil");
+        System.out.println(b);
+        int c = ReturnProgram.data(25);
+        System.out.println(c);
+    }
+}
