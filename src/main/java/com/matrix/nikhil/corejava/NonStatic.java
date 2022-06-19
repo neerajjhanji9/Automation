@@ -15,6 +15,7 @@ public class NonStatic {
 */
     public static void main(String[] args) {
         NonStatic obj =new NonStatic();
+        System.out.println("All Non Static Programs");
         System.out.println("Job Id:"+obj.id);
         System.out.println("Name:"+obj.name);
         System.out.println("Company Name: "+obj.companyName);
