@@ -1,4 +1,4 @@
-package com.matrix.dhanashri;
+package com.matrix.dhanashri.corejava;
 
 public class HelloGitBranch {
     public static void main(String[] args) {
