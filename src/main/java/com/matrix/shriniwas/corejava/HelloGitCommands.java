@@ -1,4 +1,4 @@
-package com.matrix.shriniwas;
+package com.matrix.shriniwas.corejava;
 
 public class HelloGitCommands {
     public static void main(String[] args) {
