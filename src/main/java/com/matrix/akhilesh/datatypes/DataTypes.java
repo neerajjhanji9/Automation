@@ -27,5 +27,6 @@ public class DataTypes {
         System.out.println(rollNumber);
         System.out.println(by);
         System.out.println(b);
+        System.out.println(st);
     }
 }
