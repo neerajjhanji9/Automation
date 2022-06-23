@@ -1,4 +1,4 @@
-package com.matrix.pankaj;
+package com.matrix.pankaj.corejava;
 
 public class HelloGitBranchNewVersion {
 }
