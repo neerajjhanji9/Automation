@@ -1,4 +1,4 @@
-package com.matrix.shikha.CoreJava;
+package com.matrix.shikha.corejava;
 
 public class HelloGitBranch {
     public static void main(String[] args) {
