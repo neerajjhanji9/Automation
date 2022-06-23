@@ -5,6 +5,7 @@ public class ThisVariable {
     int b=200;
     public void data(int a,int b)
     {
+
         int x =a+b;
         int y=a*b;
         int z=a-b;

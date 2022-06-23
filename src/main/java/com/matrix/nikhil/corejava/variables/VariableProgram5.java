@@ -3,7 +3,9 @@ package com.matrix.nikhil.corejava.variables;
 public class VariableProgram5 {
     int iD1=101;
     String name1="Shri";
+
     static String companyName="TCS";
+
     int iD2=102;
     String name2="Nikhil";
     int iD3=103;
@@ -15,7 +17,7 @@ public class VariableProgram5 {
 
 
     public static void main(String[] args) {
-        VariableProgram5 obj=new VariableProgram5();
+        VariableProgram5 obj = new VariableProgram5();
         System.out.println(obj.iD1);
         System.out.println(obj.name1);
         System.out.println(VariableProgram5.companyName);
@@ -35,6 +37,6 @@ public class VariableProgram5 {
         System.out.println(obj.iD5);
         System.out.println(obj.name5);
         System.out.println(VariableProgram5.companyName);
-
     }
+
 }
