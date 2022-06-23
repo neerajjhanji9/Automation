@@ -37,6 +37,7 @@ public class VariableProgram5 {
         System.out.println(obj.iD5);
         System.out.println(obj.name5);
         System.out.println(VariableProgram5.companyName);
+
     }
 
 }
