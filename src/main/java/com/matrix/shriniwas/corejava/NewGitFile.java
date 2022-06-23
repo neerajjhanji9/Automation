@@ -1,6 +1,6 @@
-package com.matrix.shriniwas;
+package com.matrix.shriniwas.corejava;
 
-public class NewGitfile {
+public class NewGitFile {
     public static void main(String[] args) {
         System.out.println("code added");
     }
