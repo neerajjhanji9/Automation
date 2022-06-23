@@ -1,6 +1,6 @@
-package com.matrix.shikha.corejava;
+package com.matrix.shikha.CoreJava;
 /**
- * @author: Shikha
+ *
  */
 
 public class TestCommentsPractice {

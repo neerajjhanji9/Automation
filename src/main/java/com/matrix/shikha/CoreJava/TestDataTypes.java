@@ -1,4 +1,4 @@
-package com.matrix.shikha.corejava;
+package com.matrix.shikha.CoreJava;
 
 public class TestDataTypes {
     public static void main(String[] args) {
