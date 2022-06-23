@@ -6,7 +6,7 @@ package com.matrix.shikha.corejava;
 public class TestCommentsPractice {
 
     /**
-     * {@param Strinbg[]}
+     * {@param String[]}
      * This is a main method
      */
     public static void main(String[] args) {
