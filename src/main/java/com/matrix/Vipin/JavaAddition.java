@@ -1,6 +1,6 @@
 package com.matrix.Vipin;
 
-public class Javasubstraction {
+public class JavaAddition {
     public static void main(String[] args) {
 
         int firstNumber = 55;
