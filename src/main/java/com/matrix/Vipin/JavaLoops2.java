@@ -8,7 +8,6 @@ public class JavaLoops2 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for (int i = 2; i<35; i++){
-
             System.out.println(i*n);
         }
     }
