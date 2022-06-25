@@ -33,8 +33,13 @@ public class InstanceVariables {
         }
 
     public static void main(String[] args) {
+       m2();
+       InstanceVariables ob = new InstanceVariables();
+       ob.m1();
+
 
     }
+
 
 
 
