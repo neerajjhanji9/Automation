@@ -7,6 +7,9 @@ public class LocalVariables {
         int a = 10;
         int b = 20;
         System.out.println(a+b);
+        LocalVariables obj = new LocalVariables();
+        obj.getDetails(24);
+
     }
 
   // Constructor
@@ -15,11 +18,13 @@ public class LocalVariables {
         char ch = 'G';
         String s = "Gayathri";
         System.out.println(ch);
+          System.out.println(s);
         }
    // Block
    {
        int num = 90;
        System.out.println(num);
+
 
    }
 
