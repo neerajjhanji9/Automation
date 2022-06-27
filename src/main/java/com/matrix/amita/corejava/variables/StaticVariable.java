@@ -17,6 +17,14 @@ public class StaticVariable {
     }
 
     public static void main(String[] args) {
-        System.out.println("static variable.age");
+        StaticVariable st = new StaticVariable();
+       // 1.Direct Access
+        System.out.println(age);
+
+       // 2. By using object reference
+        System.out.println(st.age);
+
+        // 3. by using class name
+        System.out.println(StaticVariable.age);
     }
 }
