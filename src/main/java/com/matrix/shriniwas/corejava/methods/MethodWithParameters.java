@@ -13,7 +13,7 @@ public class MethodWithParameters {
     public static void add(int a, int b, int c) {
         System.out.println(a+b+c);
     }
-
+    
     public void getName(String name) {
         System.out.println(name);
     }
