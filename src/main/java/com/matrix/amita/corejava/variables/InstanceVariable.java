@@ -5,7 +5,7 @@ public class InstanceVariable {
     // Instance variable
     int age = 10;
     boolean a = true;
-    string str = "Amita";
+    String str = "Amita";
     int [] ar = {20,40};
 
     public void m1(){
