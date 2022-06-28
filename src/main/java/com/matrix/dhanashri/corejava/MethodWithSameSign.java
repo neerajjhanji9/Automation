@@ -6,6 +6,7 @@ public class MethodWithSameSign {
     }
 
     public static void main(String[] args) {
-
+    String str1="Dhanashri";
+        System.out.println(str1);
     }
 }
