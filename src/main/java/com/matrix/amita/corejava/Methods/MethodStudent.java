@@ -1,9 +1,9 @@
 package com.matrix.amita.corejava.Methods;
 
-public class MethodEmployee {
+public class MethodStudent {
 
     String name = "Amita Singam";
-    String College = "NBNSCOE solapur";
+    String College = "NBNSCOE, Solapur";
     int age = 27;
 
 }
