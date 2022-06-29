@@ -28,10 +28,10 @@ public class ProgramPractice {
         instance(10, 2);
         instance1();
         instance4();
-        instance5();
+        abc();
     }
 
-    public void instance5(){
+    public void abc(){
         System.out.println("Java Core Practice");
     }
 
