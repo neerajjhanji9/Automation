@@ -1,4 +1,4 @@
-package com.matrix.amita.corejava.Methods;
+package com.matrix.amita.corejava.MethodsPractice;
 
 public class MethodParameter2 {
 
