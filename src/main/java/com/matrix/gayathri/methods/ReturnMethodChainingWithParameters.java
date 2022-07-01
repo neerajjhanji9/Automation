@@ -7,8 +7,8 @@ public class ReturnMethodChainingWithParameters {
     int c = 33;
 
     public int data(int a, int b, int c){
-        info("my","name");
-        int d = (a * this.b * c * this.a);
+        String name = info("my","name");
+        int d = (a * this.b * c * this.a * this.c + b);
         return d;
     }
     public String info(String s, String st){
@@ -21,6 +21,7 @@ public class ReturnMethodChainingWithParameters {
         ReturnMethodChainingWithParameters obj = new ReturnMethodChainingWithParameters();
         int da = obj.data(10,20,30);
         System.out.println(da);
+
 
     }
 }
