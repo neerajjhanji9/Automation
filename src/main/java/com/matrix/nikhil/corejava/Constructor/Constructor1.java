@@ -1,4 +1,4 @@
-package com.matrix.nikhil.corejava.Constructer;
+package com.matrix.nikhil.corejava.Constructor;
 
 public class Constructor1 {
     int rollNo;
