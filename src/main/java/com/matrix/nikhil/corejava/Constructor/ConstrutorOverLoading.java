@@ -1,10 +1,10 @@
-package com.matrix.nikhil.corejava.Constructer;
+package com.matrix.nikhil.corejava.Constructor;
 
-public class ConstruterOverLoading {
+public class ConstrutorOverLoading {
     String name;
     String place;
     int date;
-    ConstruterOverLoading(String name,String place,int date)
+    ConstrutorOverLoading(String name, String place, int date)
     {
         this.name=name;
         this.place=place;
@@ -13,21 +13,21 @@ public class ConstruterOverLoading {
         System.out.println("City :"+place);
         System.out.println("Date Of Birth :"+date);
     }
-    ConstruterOverLoading(String name,String place){
+    ConstrutorOverLoading(String name, String place){
         this.name=name;
         this.place=place;
         System.out.println("Name :"+name);
         System.out.println("District :"+place);
 
     }
-    ConstruterOverLoading(int date){
+    ConstrutorOverLoading(int date){
         this.date=date;
        // this.place=place;
         System.out.println("Date :"+date);
        // System.out.println("District :"+place);
 
     }
-    ConstruterOverLoading(String name,int date)
+    ConstrutorOverLoading(String name, int date)
     {
         this.name=name;
         this.date=date;
@@ -36,12 +36,12 @@ public class ConstruterOverLoading {
     }
 
     public static void main(String[] args) {
-        new ConstruterOverLoading("Shri","Pune",29);
-        new ConstruterOverLoading("Nikhil","Solapur",18);
-        new ConstruterOverLoading("Pratham","Solapur",18);
-        new ConstruterOverLoading("Anil","Solapur");
-        new ConstruterOverLoading("Nagesh","Solapur");
-        new ConstruterOverLoading("solapur",23);
-        new ConstruterOverLoading(11);
+        new ConstrutorOverLoading("Shri","Pune",29);
+        new ConstrutorOverLoading("Nikhil","Solapur",18);
+        new ConstrutorOverLoading("Pratham","Solapur",18);
+        new ConstrutorOverLoading("Anil","Solapur");
+        new ConstrutorOverLoading("Nagesh","Solapur");
+        new ConstrutorOverLoading("solapur",23);
+        new ConstrutorOverLoading(11);
     }
 }
