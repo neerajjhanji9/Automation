@@ -1,4 +1,4 @@
-package com.matrix.dhanashri.corejava.MethodsConcept;
+package com.matrix.dhanashri.corejava.methodsconcept;
 
 public class MethodWithReturnType {
 

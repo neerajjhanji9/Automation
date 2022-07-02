@@ -1,4 +1,4 @@
-package com.matrix.dhanashri.corejava.SimplePrograms;
+package com.matrix.dhanashri.corejava.simpleprograms;
 
 public class Palindrome {
     public static void main(String[] args) {

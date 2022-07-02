@@ -1,4 +1,4 @@
-package com.matrix.dhanashri.corejava.VariableConcept;
+package com.matrix.dhanashri.corejava.variableconcept;
 
 public class StaticVariablesNew {
 
