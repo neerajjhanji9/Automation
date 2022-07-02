@@ -1,7 +1,5 @@
 package com.matrix.dhanashri.corejava.MethodsConcept;
 
-import com.matrix.dhanashri.corejava.Employee;
-
 public class MethodWithClassParam {
     public void getInfo(){
         Employee emp= new Employee();

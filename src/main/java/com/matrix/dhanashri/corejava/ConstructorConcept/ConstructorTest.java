@@ -1,6 +1,6 @@
 package com.matrix.dhanashri.corejava.ConstructorConcept;
 
-import com.matrix.dhanashri.corejava.StudentClass;
+import com.matrix.dhanashri.corejava.MethodsConcept.StudentClass;
 
 public class ConstructorTest {
 
