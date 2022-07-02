@@ -1,4 +1,4 @@
-package com.matrix.dhanashri.corejava;
+package com.matrix.dhanashri.corejava.SimplePrograms;
 
 public class ReverseString {
     public static void main(String[] args) {

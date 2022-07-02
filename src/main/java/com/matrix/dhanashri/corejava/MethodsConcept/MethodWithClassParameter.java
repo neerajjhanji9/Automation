@@ -1,4 +1,7 @@
-package com.matrix.dhanashri.corejava;
+package com.matrix.dhanashri.corejava.MethodsConcept;
+
+import com.matrix.dhanashri.corejava.Employee;
+import com.matrix.dhanashri.corejava.Student;
 
 public class MethodWithClassParameter {
     public void getData(Employee o){

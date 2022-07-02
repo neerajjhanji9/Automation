@@ -1,4 +1,4 @@
-package com.matrix.dhanashri.corejava;
+package com.matrix.dhanashri.corejava.MethodsConcept;
 
 public class MethodWithParameters {
     public void addition(int a, int b){
