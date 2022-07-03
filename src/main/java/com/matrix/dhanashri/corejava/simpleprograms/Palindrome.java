@@ -1,22 +1,21 @@
 package com.matrix.dhanashri.corejava.simpleprograms;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
 public class Palindrome {
     public static void main(String[] args) {
 
-        int r, sum = 0, temp;
-        int n = 454;
+        String str = "Dhanashri";
+        String reverse = " "; // Objects of String class
+        int length = str.length();
 
-        temp = n;
-        while (n > 0) {
-            r = n % 10;
-            sum = (sum * 10) + r;
-            n = n / 10;
+        for (int i = length - 1; i >= 0; i--) {
+            reverse = reverse + str.charAt(i);
         }
-        if (temp == sum) {
-            System.out.println("palindrome number");
 
-                System.out.println("Not palindrome number");
-            }
-        }
+        if (str.equals(reverse))
+            System.out.println("String is a palindrome.");
+        else
+            System.out.println("String is not palindrome");
     }
-
+}
