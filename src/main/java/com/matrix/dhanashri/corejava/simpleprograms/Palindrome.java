@@ -5,7 +5,7 @@ import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 public class Palindrome {
     public static void main(String[] args) {
 
-        String str = "Dhanashri";
+        String str = "Dhan";
         String reverse = " "; // Objects of String class
         int length = str.length();
 
