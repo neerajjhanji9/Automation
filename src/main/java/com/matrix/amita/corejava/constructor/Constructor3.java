@@ -6,7 +6,7 @@ public class Constructor3 {
     int EmpID;
 
 
-    Constructor1(String nm, int ID){
+    Constructor3(String nm, int ID){
         name = nm;
         EmpID = ID;
         System.out.println(name);
@@ -15,9 +15,9 @@ public class Constructor3 {
 
 
     public static void main(String[] args) {
-        Constructor1 obj=new Constructor1("Amita", 100);
-        Constructor1 obj1=new Constructor1("Rajendra", 200);
-        Constructor1 obj2=new Constructor1("Lavanya", 300);
+        Constructor3 obj=new Constructor3("Amita", 100);
+        Constructor3 obj1=new Constructor3("Rajendra", 200);
+        Constructor3 obj2=new Constructor3("Lavanya", 300);
     }
 
 }

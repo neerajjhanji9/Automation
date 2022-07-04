@@ -9,7 +9,8 @@ public class Constructor1 {
     Constructor1(String nm, int ID){
         name = nm;
         EmpID = ID;
-
+        System.out.println(name);
+        System.out.println(EmpID);
     }
     public void getData(){
         System.out.println(name);
