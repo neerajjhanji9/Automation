@@ -9,5 +9,6 @@ public class TestString {
          String str1 = new String("Kishor Mane");//String Object
          System.out.println(str1);
 
+
     }
 }
