@@ -12,7 +12,7 @@ public class StaticBlock1 {
     }
 
     public static void main(String[] args) {
-        new StaticBlock1();
+        new StaticBlock1(); //nameless object
 
     }
 }
