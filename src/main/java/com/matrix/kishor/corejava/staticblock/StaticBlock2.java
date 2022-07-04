@@ -2,16 +2,16 @@ package com.matrix.kishor.corejava.staticblock;
 
 public class StaticBlock2 {
 
-
+    {
+        System.out.println("In instance block");
+    }
     static {
         System.out.println("In Second static block");
     }
     static {
         System.out.println("In first static block");
     }
-    {
-        System.out.println("In instance block");
-    }
+
     StaticBlock2 (){
         System.out.println("In constructor");
     }
