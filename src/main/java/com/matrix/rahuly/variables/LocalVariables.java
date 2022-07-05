@@ -1,4 +1,4 @@
-package com.matrix.rahuly;
+package com.matrix.rahuly.variables;
 
 public class LocalVariables {
 

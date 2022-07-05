@@ -1,6 +1,4 @@
-package com.matrix.rahuly;
-
-import com.matrix.shriniwas.corejava.methods.MethodCalling;
+package com.matrix.rahuly.methods;
 
 public class MethodCalling1{
     //Method declaration

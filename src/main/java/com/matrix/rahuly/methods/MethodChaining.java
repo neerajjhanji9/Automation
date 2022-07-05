@@ -1,11 +1,11 @@
-package com.matrix.rahuly;
+package com.matrix.rahuly.methods;
 
-public class ProgramPractice {
+public class MethodChaining {
 
 
     public static void main(String[] args) {
         // Local variable
-        ProgramPractice pt = new ProgramPractice();
+        MethodChaining pt = new MethodChaining();
         pt.instance3();
 
     }
