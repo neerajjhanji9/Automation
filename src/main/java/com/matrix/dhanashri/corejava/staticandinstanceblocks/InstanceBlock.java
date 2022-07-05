@@ -1,11 +1,11 @@
-package com.matrix.dhanashri.corejava.constructorconcept;
+package com.matrix.dhanashri.corejava.staticandinstanceblocks;
 
 public class InstanceBlock {
-    int a=200;
+    int a;
 
       ///Instance block
     {
-      a= 10;
+      //a= 10;
         System.out.println("This is an Instance block");
     }
 
