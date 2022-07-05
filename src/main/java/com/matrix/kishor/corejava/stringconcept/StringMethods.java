@@ -14,5 +14,7 @@ public class StringMethods {
 
         String str1 = "       hi       how     are   you      ";
         System.out.println("Trim starting and ending spaces"+str1.trim());
+
+        System.out.println(str.equals(str1));
     }
 }
