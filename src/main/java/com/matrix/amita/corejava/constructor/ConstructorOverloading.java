@@ -2,7 +2,7 @@ package com.matrix.amita.corejava.constructor;
 
 public class ConstructorOverloading {
 
-    ConstructorOverloading(){
+    ConstructorOverloading(){  // same constructor name but diff actions
         System.out.println("Without Parameter");
     }
 
@@ -12,11 +12,13 @@ public class ConstructorOverloading {
     }
 
     public void getData(){
-
+        System.out.println("I am Amita");
     }
 
     public static void main(String[] args) {
-        new ConstructorOverloading();
-        new ConstructorOverloading(12, 13);
+        ConstructorOverloading obj=new ConstructorOverloading();
+        obj.getData();
+        new ConstructorOverloading().getData();
+        new ConstructorOverloading(12, 13).getData();
     }
 }
