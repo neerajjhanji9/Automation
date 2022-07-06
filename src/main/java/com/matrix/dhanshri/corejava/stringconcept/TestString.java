@@ -1,4 +1,4 @@
-package com.matrix.dhanshri.corejava.string;
+package com.matrix.dhanshri.corejava.stringconcept;
 
 public class TestString {
 
