@@ -8,8 +8,11 @@ public class TestString {
         String str1= new String("Dhanashri");
         String str2= new String("Renuka");
         String str5= new String("Dhanashri");
+        System.out.println("Memory Address of str1:  "     +System.identityHashCode(str1));//This will print memory location of str1
+        System.out.println("Memory Address of str2:  "      +System.identityHashCode(str2));//This will print memory location of str2
+        System.out.println("Memory Address of str5:  "       +System.identityHashCode(str5));//same as above for str5
 
-        System.out.println(str1==str5);//false : Reference comparison
+        System.out.println(str1==str5);//false : does Reference comparison
 
         // by using string literal way
         String str3 = "Dhanashri";
@@ -18,5 +21,8 @@ public class TestString {
 
         System.out.println(str4==str6);//true
 
+        System.out.println("Memory Address of str3:  "     +System.identityHashCode(str3));//This will print memory location of str3
+        System.out.println("Memory Address of str4:  "      +System.identityHashCode(str4));//This will print memory location of str4
+        System.out.println("Memory Address of str6:  "       +System.identityHashCode(str6));//same as above for str6
     }
 }
