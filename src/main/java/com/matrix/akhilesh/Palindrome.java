@@ -12,10 +12,10 @@ public class Palindrome {
         pt.getPalinDrome();
     }
 
-    public void getPalinDrome(){
+    public void getPalinDrome() {
         int temp = n;
 
-        while (n > 0){
+        while (n > 0) {
             int r = n % 10;
 
             sum = (sum * 10) + r;
@@ -24,11 +24,9 @@ public class Palindrome {
         }
 
 
-
-        if(temp == sum){
+        if (temp == sum) {
             System.out.println("The number is palindrome");
-        }
-        else{
+        } else {
             System.out.println("The number is not palindrome");
         }
 
