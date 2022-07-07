@@ -1,6 +1,6 @@
 package com.matrix.jayesh.staticMethods;
 
-public class staticTest {
+public class StaticTest {
     // static veriable
     //this and super cannot be used in static context.
 

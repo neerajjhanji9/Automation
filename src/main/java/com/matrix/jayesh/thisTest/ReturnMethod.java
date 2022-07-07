@@ -1,11 +1,11 @@
 package com.matrix.jayesh.thisTest;
 
-public class returnMethod {
+public class ReturnMethod {
     /*returnMethod(){
         return this; //  Cannot return a value from a method with void result type
     } */
 
-    returnMethod callM(){
+    ReturnMethod callM(){
         return this;
     }
     public void display(){
@@ -13,7 +13,7 @@ public class returnMethod {
     }
 
     public static void main(String[] args) {
-        returnMethod obj = new returnMethod();
+        ReturnMethod obj = new ReturnMethod();
         obj.callM().display();
     }
 }

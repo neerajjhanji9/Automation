@@ -1,6 +1,6 @@
 package com.matrix.jayesh.staticMethods;
 
-public class staticTest1 {
+public class StaticTest1 {
     static {
         System.out.println("static");
     }

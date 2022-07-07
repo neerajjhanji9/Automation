@@ -1,6 +1,6 @@
 package com.matrix.jayesh.dataType;
 
-public class veriables {
+public class Veriables {
 
     static int ROLLNO = 20; // static method
 

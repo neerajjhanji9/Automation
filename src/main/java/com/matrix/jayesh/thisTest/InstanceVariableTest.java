@@ -1,18 +1,18 @@
 package com.matrix.jayesh.thisTest;
 
-public class instanceVariableTest {
+public class InstanceVariableTest {
     //Rule: Call to this() must be the first statement in constructor.
 
     int rollno = 10;
     String str = "Jayesh";
-    instanceVariableTest(){
+    InstanceVariableTest(){
         this(50); // Calling constructor //chanining of constructor
         this.rollno = rollno;
         this.str = str; // used as instance veriable
         // we can used rollNo = rollno.
     }
 
-    instanceVariableTest(int i){
+    InstanceVariableTest(int i){
         System.out.println("Should display ="+i);
     }
 
@@ -27,7 +27,7 @@ public class instanceVariableTest {
 
     }
     public static void main(String[] args) {
-        instanceVariableTest obj = new instanceVariableTest();
+        InstanceVariableTest obj = new InstanceVariableTest();
         obj.display();
 
     }

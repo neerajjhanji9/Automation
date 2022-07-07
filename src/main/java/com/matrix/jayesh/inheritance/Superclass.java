@@ -1,6 +1,6 @@
 package com.matrix.jayesh.inheritance;
 
-public class Superclass extends superClassNext{
+public class Superclass extends SuperClassNext {
     // base class or a parent class.
 
     int rollNo = 10;

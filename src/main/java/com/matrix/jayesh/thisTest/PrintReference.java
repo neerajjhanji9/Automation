@@ -1,6 +1,6 @@
 package com.matrix.jayesh.thisTest;
 
-public class printReference {
+public class PrintReference {
     /**
      * printReference@4554617c
      * class name @
@@ -10,7 +10,7 @@ public class printReference {
         System.out.println(this); //com.matrix.jayesh.thisTest.printReference@4554617c
     }
     public static void main(String[] args) {
-        printReference obj = new printReference();
+        PrintReference obj = new PrintReference();
         System.out.println(obj); // com.matrix.jayesh.thisTest.printReference@4554617c
         obj.methodM();
     }

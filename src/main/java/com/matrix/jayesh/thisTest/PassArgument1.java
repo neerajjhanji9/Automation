@@ -1,8 +1,8 @@
 package com.matrix.jayesh.thisTest;
 
-public class passArgument1 {
-    passArgument obj;
-    passArgument1(passArgument obj){
+public class PassArgument1 {
+    PassArgument obj;
+    PassArgument1(PassArgument obj){
         this.obj = obj;
     }
 

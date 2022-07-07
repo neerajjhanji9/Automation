@@ -10,7 +10,7 @@ package com.matrix.jayesh.constructor;
  * new = to create an object
  * Student() =  is a constructor
  * */
-public class constructorSimple {
+public class ConstructorSimple {
 
     // if there is no constructor then create a default constructor. and value is null
 }
