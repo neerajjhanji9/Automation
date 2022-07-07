@@ -5,7 +5,7 @@ public class SimpleConstructorEx {
     int a;
     String b;
 
-    //constructor
+    //Parameterized constructor
 
     SimpleConstructorEx (int a, String b) {
 
@@ -14,9 +14,16 @@ public class SimpleConstructorEx {
         System.out.println(a);
         System.out.println(b);
     }
+
+    //No args constructor
+    public SimpleConstructorEx (){
+
+        System.out.println("No args constructor");
+    }
     public static void main(String[] args) {
         SimpleConstructorEx d1 = new SimpleConstructorEx(20,"juhi");
         SimpleConstructorEx d2 = new SimpleConstructorEx(40,"anil");
 
+        SimpleConstructorEx d3 = new SimpleConstructorEx();
     }
 }
