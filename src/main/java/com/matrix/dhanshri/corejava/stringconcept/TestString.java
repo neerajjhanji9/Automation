@@ -12,14 +12,21 @@ public class TestString {
         System.out.println("Memory Address of str2:  "      +System.identityHashCode(str2));//This will print memory location of str2
         System.out.println("Memory Address of str5:  "       +System.identityHashCode(str5));//same as above for str5
 
+        System.out.println("***********************************");
         System.out.println(str1==str5);//false : does Reference comparison
+        System.out.println((str1.equals(str5)));
 
         // by using string literal way
         String str3 = "Dhanashri";
         String str4= "Dhanu";
         String str6="Dhanu";
 
-        System.out.println(str4==str6);//true
+        System.out.println("*******************************************");
+        System.out.println(str3.equals(str4));//false
+        System.out.println("******************************************");
+
+        System.out.println(str4.equals(str6)); //  it compares content
+        System.out.println(str4==str6);//true   // it compares object reference
 
         System.out.println("Memory Address of str3:  "     +System.identityHashCode(str3));//This will print memory location of str3
         System.out.println("Memory Address of str4:  "      +System.identityHashCode(str4));//This will print memory location of str4
