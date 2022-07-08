@@ -12,4 +12,13 @@ public class InstanceConstructre {
      * class constructor B
      * class constructor A
      * **/
+
+    /**
+     *  first call super class
+     *  then static method
+     *  then {}
+     *  then constructor
+     *  then main method
+     *  then method
+     * **/
 }
