@@ -12,22 +12,21 @@ public class InstanceVeriables {
         System.out.println(age);
     }
 
-
-
-
-    InstanceVeriables() {
-
-        System.out.println(age);
-    }
-
-    {
+    //Instance Method
+    public void m2() {
+        //instance area
 
         System.out.println(age);
     }
+    // Static Method
 
     public static void main (String[] args) {
 
+
+        InstanceVeriables obj = new InstanceVeriables();
+        System.out.println(obj.age);
     }
+
     }
 
 
