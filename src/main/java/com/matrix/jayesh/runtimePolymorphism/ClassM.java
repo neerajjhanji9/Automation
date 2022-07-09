@@ -7,6 +7,7 @@ public class ClassM extends ClassX{
        // obj.set();
 
         ClassN obj = new ClassX(); // Test class x  //upcasting
+        // Dynamic binding, run-time object, Late Binding
         obj.set();
     }
 

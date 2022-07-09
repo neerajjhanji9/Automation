@@ -11,7 +11,8 @@ package com.matrix.jayesh.overloading;
  * **/
 public class ChildTest {
     public static void main(String[] args) {
-        ParentTest obj = new ParentTest();
+        ParentTest obj = new ParentTest(); // Static Binding (also known as Early Binding).
+
         obj.subStract(); // By changing number of arguments
         obj.subStract(10,20); // By changing number of arguments
         obj.subStract(10,20,30); // By changing number of arguments
