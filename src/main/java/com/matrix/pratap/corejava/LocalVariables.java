@@ -33,5 +33,6 @@ public class LocalVariables {
         int a = 10;
         int b = 15;
         System.out.println(a + b);
+
     }
 }
