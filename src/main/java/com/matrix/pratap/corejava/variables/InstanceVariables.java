@@ -2,6 +2,7 @@ package com.matrix.pratap.corejava.variables;
 
 public class InstanceVariables {
 
+    //Instance Variables
     int age = 10;
     String str = "Pratapsinh";
     int arr [] = {10, 20};
@@ -11,12 +12,16 @@ public class InstanceVariables {
         System.out.println(age);
     }
 
+    //Instance Method
    public  void m2(){
+        //Instance area - Direct access
        System.out.println(str);
    }
 
+   //Static method
    public static void m3(){
-        InstanceVariables obj = new InstanceVariables();
+        // Static area - By using object reference/variables
+        InstanceVariables obj = new InstanceVariables(); //Obj creation
        System.out.println(obj.age);
        System.out.println(obj.str);
        System.out.println(obj.arr);
