@@ -17,7 +17,7 @@ public class InstanceVariable {
     }
     // Static method
     public static  void m3(){
-        //Static Area
+        //Static Area-by using object reference
     }
       void InstanceVariables (){
         int age=30;
