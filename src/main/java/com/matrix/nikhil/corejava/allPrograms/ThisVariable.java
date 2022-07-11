@@ -1,4 +1,4 @@
-package com.matrix.nikhil.corejava;
+package com.matrix.nikhil.corejava.allPrograms;
 
 public class ThisVariable {
     int a=100;
