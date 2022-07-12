@@ -1,4 +1,4 @@
-package com.matrix.shriniwas.corejava.polymorphism;
+package com.matrix.shriniwas.corejava.polymorphism.overloading;
 
 public class Overloading1 {
 
