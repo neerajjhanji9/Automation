@@ -9,6 +9,8 @@ public class Subclass extends Superclass{
 
     //Why multiple inheritance is not supported in java?
     // ans - To reduce the complexity and simplify the language, multiple inheritance is not supported in java.
+    // To reduce Ambiguity
+    // Note - but we will perform multiple inheritance in interface class.
     // it through  = Compile Time Error
 
     public static void main(String[] args) {
