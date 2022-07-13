@@ -1,4 +1,4 @@
-package com.matrix.gayathri;
+package com.matrix.gayathri.corejava;
 
 public class HelloWorld {
 
