@@ -1,25 +1,16 @@
 package com.matrix.mohita.oops.inheritance;
-
-/** Single Inheritance : one to one mapping
- *          Animal
- *             |
- *            Dog
- */
- class Animal {
-     void eat (){
-         System.out.println("I am an animal and i eat meat");
-     }
+/* Calculating the salary of an employee using
+  single inheritance with the object class*/
+ class Employee{
+     float sal = 15000;
 }
- class Dog extends Animal{
-     void bark(){
-         System.out.println("Dog: barks");
+ class Main extends Employee{
+     float b = 5000;
+     float temp = sal + b;
+
+     public static void main(String[] args) {
+         Main ob = new Main();
+         System.out.println("Salary amount is: "+ ob.sal);
+         System.out.println("Extra Bonous is: "+ob.temp);
      }
  }
-
-public class SingleInheritance {
-    public static void main(String[] args) {
-        Dog d = new Dog ();
-        d.eat();
-        d.bark();
-    }
-}
