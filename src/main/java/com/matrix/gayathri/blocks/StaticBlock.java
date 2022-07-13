@@ -1,0 +1,22 @@
+package com.matrix.gayathri.blocks;
+
+public class StaticBlock {
+
+  static {
+      System.out.println("Im in static block");
+  }
+
+  StaticBlock(){
+      System.out.println("Hi, 0-args constructor!");
+  }
+
+  StaticBlock(int a){
+      System.out.println("Hi, 1-args constructor!");
+  }
+
+    public static void main(String[] args) {
+        new StaticBlock();
+        new StaticBlock(10);
+    }
+
+}

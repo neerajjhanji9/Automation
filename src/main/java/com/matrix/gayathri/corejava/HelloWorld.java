@@ -1,0 +1,9 @@
+package com.matrix.gayathri.corejava;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+
+        System.out.println("Hello World!");
+    }
+}
