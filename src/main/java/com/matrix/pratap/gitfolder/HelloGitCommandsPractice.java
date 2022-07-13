@@ -1,7 +1,7 @@
-package com.matrix.pratap;
+package com.matrix.pratap.gitfolder;
 
 public class HelloGitCommandsPractice {
     public static void main(String[] args) {
-        System.out.println("git command practice");
+        System.out.println("Git command practice..");
     }
 }
