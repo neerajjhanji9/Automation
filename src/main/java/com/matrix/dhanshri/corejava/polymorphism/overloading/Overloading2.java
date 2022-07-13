@@ -1,4 +1,4 @@
-package com.matrix.dhanshri.corejava.polymorphism;
+package com.matrix.dhanshri.corejava.polymorphism.overloading;
 
 public class Overloading2 {
     public void getDetails(int age, String name, int rollno){
