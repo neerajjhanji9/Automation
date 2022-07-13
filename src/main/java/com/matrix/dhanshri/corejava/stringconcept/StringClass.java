@@ -24,7 +24,7 @@ public class StringClass {
         System.out.println("substring(int, int)::       "        +str1.substring(0, 9));
 
         char[] chArr= str1.toCharArray();// string char[]
-        String[] stArr= { "Dha", "Dhana", "shri"};
+        String[] stArr= { "Dha", "Dhana", "shri", "Dhanaa", "Shravni"};
 
         //System.out.println();
         for(char ch: chArr){
@@ -40,17 +40,18 @@ public class StringClass {
         for (int i=0; i<=8; i++){
             System.out.print(chArr[i]);
         }
-        System.out.println();
-        String str2= "Dhan  shri";
+        //System.out.println();
+        String str2= "Dhan  shri Dhana   Bhosale";
 
         String[] strArr= str2.split(" ");
         for(String st: strArr) {
         }
+        //System.out.println();
         System.out.println("-------------------for loop------------------");
-        for(int i=0; i<=2; i++){
+        //System.out.println();
+        for(int i=1; i<=3; i++){
             System.out.println(strArr[i]);
         }
-
         String str3= "Dhanashri   Bhosale";
         System.out.println(str3.replaceAll("  ", "Shri"));
 
