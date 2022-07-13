@@ -1,4 +1,4 @@
-package com.matrix.nikhil;
+package com.matrix.nikhil.corejava.variables;
 
 public class NonStatic {
     int rollNo = 10;

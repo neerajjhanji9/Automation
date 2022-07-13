@@ -1,4 +1,4 @@
-package com.matrix.nikhil;
+package com.matrix.nikhil.corejava.variables;
 
 public class SimProgm {
     static int rollNo=10;

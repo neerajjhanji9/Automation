@@ -1,4 +1,4 @@
-package com.matrix.nikhil;
+package com.matrix.nikhil.corejava.allPrograms;
 
 public class HelloWorld {
     public static void main(String[] args) {

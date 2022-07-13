@@ -1,4 +1,4 @@
-package com.matrix.Dhanashri;
+package com.matrix.dhanshri.corejava.simpleprograms;
 
 public class Demo {
     public static void main(String[] args){
