@@ -9,6 +9,7 @@ public class AdditionOfFloat {
         float fl3 = 10.4f;
         float fl4 = 10.5f;
 
+
         System.out.println(fl + fl1 + fl2 + fl3 +fl4);
     }
 }
