@@ -1,5 +1,10 @@
 package com.matrix.juhi;
 
+class Member {
+    String name;
+    String state;
+}
+
 public class MethodWithClassParameter {
 
 
