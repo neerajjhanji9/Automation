@@ -1,5 +1,11 @@
 package com.matrix.ajaykumar.corejava.methods;
 
+class Employee {
+    String name;
+    int empId;
+    String company;
+}
+
 public class MethodWithClassParameter {
 
     public void getData(Employee emp){
