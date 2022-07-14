@@ -1,6 +1,6 @@
 package com.matrix.neeraj.datatypes;
 
-public class ADDITIONANDSUBSTRACTION {
+public class AdditionAndSubstraction {
 
     public static void main(String[] args) {
         int ad = 30;
